@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App, {Home} from './App';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Vaults from "./vaults";
-import Vault from "./vault";
+import Vaults from "./vaults/vaults";
+import VaultPage from "./vaults/vault";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -15,7 +15,7 @@ const Routing = () => {
             <Route path="/" element={<App/>}>
                 <Route index element={<Home/>}/>
                 <Route path={"/vaults"} element={<Vaults/>}/>
-                <Route path={"/vault/:id"} element={<Vault/>}/>
+                <Route path={"/vault/:id"} element={<VaultPage/>}/>
             </Route>
         </Routes>
     </BrowserRouter>

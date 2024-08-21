@@ -2,7 +2,7 @@ import {app, BrowserWindow} from "electron";
 import * as path from "path";
 
 declare const _WEBPACK_ENTRY: string;
-declare const APP_WINDOW_PRELOAD_WEBPACK_ENTRY: string;
+declare const _PRELOAD_WEBPACK_ENTRY: string;
 
 function createWindow() {
     // Create the browser window.

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {FaEdit, FaLock, FaLockOpen} from "react-icons/fa";
-import {Modal, PasswordModal} from "./modal";
+import {PasswordModal} from "../modals/modals";
 import {useNavigate} from "react-router-dom";
 
 const Vaults = () => {
