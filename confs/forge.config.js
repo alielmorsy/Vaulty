@@ -65,9 +65,9 @@ module.exports = {
 
                             js: path.join(rootDir, 'src/renderer/index.tsx'),
 
-                            // preload: {
-                            //     js: path.join(rootDir, 'src/renderer/appPreload.tsx'),
-                            // },
+                            preload: {
+                                js: path.join(rootDir, 'src/main/preloads/preload.ts'),
+                            },
                         },
                     ],
                 },

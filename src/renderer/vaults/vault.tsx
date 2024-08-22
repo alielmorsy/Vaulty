@@ -1,5 +1,5 @@
 import React, {useMemo, useState} from "react";
-import {AccountInfo, Dict, EditedAccount} from "../types";
+import {AccountInfo, Dict, EditedAccount} from "../../typings/types";
 import {CiSearch} from "react-icons/ci";
 import {BiSolidHide, BiSolidShow} from "react-icons/bi";
 import {BsClipboardCheckFill} from "react-icons/bs";

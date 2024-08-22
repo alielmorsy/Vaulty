@@ -73,9 +73,12 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.ts', '.jsx', '.tsx', '.css', '.json'],
         alias: {
-            "@assets": path.join(process.cwd(), "assets")
+            "@assets": path.join(process.cwd(), "assets"),
+            "@main": path.join(process.cwd(), "src/main"),
+            "@typings": path.join(process.cwd(), "src/typing"),
         }
-    }, stats: 'minimal',
+    },
+    stats: 'minimal',
 
 }
 console.log(__dirname)

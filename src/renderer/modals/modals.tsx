@@ -1,5 +1,5 @@
 import React, {useRef, useState} from "react";
-import {EditedAccount} from "../types";
+import {EditedAccount} from "../../typings/types";
 import InputPassword from "../components";
 import {Modal} from "./basicModal";
 

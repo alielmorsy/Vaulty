@@ -1,0 +1,5 @@
+export const GET_VAULTS = "get-vaults"
+export const REQUEST_VAULT_ACCESS = "request-vault-access"
+export const REMOVE_ACCOUNT = "remove-account"
+export const EDIT_ACCOUNT = "edit-account"
+export const ADD_ACCOUNT = "add-account"

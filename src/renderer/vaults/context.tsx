@@ -4,10 +4,9 @@ import {
     AccountContextType,
     AccountInfo,
     AccountsInfo,
-    Dict,
     EditedAccount,
     UseAccountsReturnType
-} from "../types";
+} from "@typings/types";
 
 
 
@@ -22,7 +21,7 @@ interface AccountsContextProviderProps {
 
 export const AccountContextProvider: React.FC<AccountsContextProviderProps> = ({children, id}) => {
     //That's not an error. It just webstorm is going crazy
-    const [accounts, dispatch] = React.useReducer<React.Reducer<AccountsInfo, AccountAction>>(vaultHandler, [] as AccountsInfo);
+    const [accounts, dispatch] = useReducer<React.Reducer<AccountsInfo, AccountAction>>(vaultHandler, [] as AccountsInfo);
     useEffect(() => {
         //TODO: Get values
         const emails: AccountsInfo = originalAccounts

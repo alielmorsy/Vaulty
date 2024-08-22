@@ -1,7 +1,7 @@
 import React, {ReactNode} from "react";
 import {createPortal} from "react-dom";
 import {IoMdClose} from "react-icons/io";
-import {ModalRole} from "../types";
+import {ModalRole} from "../../typings/types";
 
 
 interface ButtonProps {
